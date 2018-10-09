@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage BackgroundColor="Red"
+    xmlns     ="http://xamarin.com/schemas/2014/forms"
+    xmlns:x    ="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:WebViewGame"
+    x:Class    ="WebViewGame.MainPage">
+    <StackLayout>
+       <WebView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" x:Name="webview1" Source="https://mlionline.biz/AIC/MobileTest/index.html" />
+    </StackLayout>
+</ContentPage>
